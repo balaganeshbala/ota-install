@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "routes": [{
+      "src": "/manifest.plist",
+      "headers": {
+        "Content-Type": "application/xml"
+      }
+    },
+    {
+      "src": "/DevTools.ipa",
+      "headers": {
+        "Content-Type": "application/octet-stream"
+      }
+    }
+  ]
+}
