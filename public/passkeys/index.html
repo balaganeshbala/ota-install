@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Passkeys Demo</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; padding: 20px; text-align: center; }
+        .button { display: inline-block; background: #007AFF; color: white; padding: 15px 30px; border-radius: 10px; text-decoration: none; font-weight: bold; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Passkeys Demo</h1>
+    <p>Tap the button below to install the merchant application</p>
+    <a class="button" href="itms-services://?action=download-manifest&url=https://otainstall.vercel.app/passkeys/merchant/manifest.plist">Install Merchant</a>
+    <p>Tap the button below to install the bank application</p>
+    <a class="button" href="itms-services://?action=download-manifest&url=https://otainstall.vercel.app/passkeys/bank/manifest.plist">Install Bank</a>
+</body>
+</html>
