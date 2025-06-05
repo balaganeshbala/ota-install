@@ -25,6 +25,24 @@
         "Content-Type": "image/png",
         "Cache-Control": "public, max-age=86400"
       }
-    }
+    },
+    {
+      "src": "/passkeys/merchant/manifest.plist",
+      "headers": {
+        "Content-Type": "application/xml",
+        "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
+        "Pragma": "no-cache",
+        "Expires": "0"
+      }
+    },
+    {
+      "src": "/passkeys/merchant/merchant.ipa",
+      "headers": {
+        "Content-Type": "application/octet-stream",
+        "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
+        "Pragma": "no-cache",
+        "Expires": "0"
+      }
+    },
   ]
 }
