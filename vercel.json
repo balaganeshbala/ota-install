@@ -2,7 +2,7 @@
   "version": 2,
   "routes": [
     {
-      "src": "/manifest.plist",
+      "src": "/(.*\\.plist)",
       "headers": {
         "Content-Type": "application/xml",
         "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
@@ -11,7 +11,7 @@
       }
     },
     {
-      "src": "/DevTools.ipa",
+      "src": "/(.*\\.ipa)",
       "headers": {
         "Content-Type": "application/octet-stream",
         "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
