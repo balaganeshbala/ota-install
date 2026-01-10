@@ -102,45 +102,91 @@
   <body>
     <div class="container">
       <h1>HyperPPDemo</h1>
-      <p>Tap the button below to install the application</p>
+
+      <p>
+        O <strong>HyperPPDemo</strong> é um aplicativo de demonstração da Juspay
+        que apresenta fluxos reais de pagamento via PIX, realizados por meio da
+        infraestrutura de <strong>Open Finance</strong>, com movimentação de
+        dinheiro, gestão de consentimento e autorização segura.
+      </p>
+
+      <div class="features">
+        <h3>🚀 Funcionalidades do Aplicativo</h3>
+
+        <div class="feature-item">
+          <h4>🔄 Automático (PIX Automático)</h4>
+          <p>
+            Esta funcionalidade oferece uma experiência completa do
+            <strong>PIX Automático</strong>, permitindo criar, gerenciar e
+            revogar mandatos para pagamentos recorrentes via PIX. Demonstra
+            autorizações contínuas e execução de pagamentos em tempo real
+            utilizando a infraestrutura da Juspay.
+          </p>
+        </div>
+
+        <div class="feature-item">
+          <h4>🔐 Biométrico (PIX JSR)</h4>
+          <p>
+            Esta funcionalidade demonstra o <strong>PIX JSR</strong> com
+            autorização biométrica. Após a criação de um consentimento único, os
+            pagamentos subsequentes via PIX são autorizados por biometria,
+            permitindo transações recorrentes rápidas, seguras e com
+            movimentação real de fundos.
+          </p>
+        </div>
+      </div>
+
+      <p>Toque no botão abaixo para instalar o aplicativo</p>
+
       <a
         class="button"
         href="itms-services://?action=download-manifest&url=https://otainstall.vercel.app/openfinance/manifest.plist"
-        >Install HyperPPDemo</a
       >
+        Instalar HyperPPDemo
+      </a>
 
       <div class="warning">
-        <strong>⚠️ Important:</strong> These are enterprise apps that require
-        you to trust the developer certificate after installation.
+        <strong>⚠️ Importante:</strong> Este é um aplicativo corporativo
+        (Enterprise). Após a instalação, é necessário confiar no certificado do
+        desenvolvedor.
       </div>
 
       <div class="steps">
-        <h3>📱 Installation & Trust Steps</h3>
+        <h3>📱 Etapas de Instalação e Confiança</h3>
         <ol>
           <li>
-            <strong>Install the app:</strong> Tap the install button above
+            <strong>Instale o aplicativo:</strong> Toque no botão de instalação
+            acima
           </li>
           <li>
-            <strong>Wait for download:</strong> The app will download and appear
-            on your home screen
+            <strong>Aguarde o download:</strong> O aplicativo será baixado e
+            aparecerá na tela inicial
           </li>
           <li>
-            <strong>Trust the developer:</strong>
+            <strong>Confiar no desenvolvedor:</strong>
             <ul>
               <li>
-                Go to <strong>Settings</strong> → <strong>General</strong> →
-                <strong>VPN & Device Management</strong>
+                Acesse <strong>Ajustes</strong> → <strong>Geral</strong> →
+                <strong>VPN e Gerenciamento de Dispositivos</strong>
               </li>
               <li>
-                Under "Enterprise App", find and tap on the developer profile
+                Em “Aplicativo Empresarial”, toque no perfil do desenvolvedor
               </li>
-              <li>Tap <strong>"Trust [Developer Name]"</strong></li>
-              <li>Confirm by tapping <strong>"Trust"</strong> again</li>
+              <li>
+                Toque em <strong>"Confiar em [Nome do Desenvolvedor]"</strong>
+              </li>
+              <li>Confirme tocando novamente em <strong>"Confiar"</strong></li>
             </ul>
           </li>
           <li>
-            <strong>Launch the app:</strong> Return to home screen and open the
-            app
+            <strong>Reinicie o dispositivo (se solicitado):</strong>
+            Em alguns casos, o iOS pode solicitar a reinicialização do
+            dispositivo após a aprovação da confiança no certificado. Caso isso
+            aconteça, reinicie o iPhone e aguarde a inicialização completa.
+          </li>
+          <li>
+            <strong>Abra o aplicativo:</strong> Volte para a tela inicial e abra
+            o app
           </li>
         </ol>
       </div>
