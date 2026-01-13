@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [ "GE8BT8LF5K.in.juspay.OOB-Authentication-App" ],
+        "components": [
+          {
+            "/": "/openOobAuthenticationApp*",
+            "comment": "Matches the specific path from your server"
+          }
+        ]
+      }
+    ]
+  }
+}
