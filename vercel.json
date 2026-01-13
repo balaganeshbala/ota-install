@@ -1,32 +1,22 @@
 {
   "version": 2,
-  "headers": [
+  "routes": [
     {
-      "source": "/.well-known/apple-app-site-association",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/json"
-        }
-      ]
+      "src": "/.well-known/apple-app-site-association",
+      "dest": "/.well-known/apple-app-site-association",
+      "headers": {
+        "Content-Type": "application/json",
+        "Cache-Control": "no-cache, no-store, must-revalidate"
+      }
     },
     {
-      "source": "/apple-app-site-association",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "application/json"
-        }
-      ]
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/.well-known/apple-app-site-association",
-      "destination": "/.well-known/apple-app-site-association"
-    }
-  ],
-  "routes": [
+      "src": "/apple-app-site-association",
+      "dest": "/.well-known/apple-app-site-association",
+      "headers": {
+        "Content-Type": "application/json",
+        "Cache-Control": "no-cache, no-store, must-revalidate"
+      }
+    },
     {
       "src": "/devtools/manifest.plist",
       "headers": {
