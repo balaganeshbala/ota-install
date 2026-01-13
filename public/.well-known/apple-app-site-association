@@ -6,7 +6,7 @@
         "components": [
           {
             "/": "*",
-            "comment": "Matches any path on this domain"
+            "comment": "Matches all paths"
           }
         ]
       }

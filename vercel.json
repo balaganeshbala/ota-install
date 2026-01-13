@@ -20,6 +20,12 @@
       ]
     }
   ],
+  "rewrites": [
+    {
+      "source": "/.well-known/apple-app-site-association",
+      "destination": "/.well-known/apple-app-site-association"
+    }
+  ],
   "routes": [
     {
       "src": "/devtools/manifest.plist",
